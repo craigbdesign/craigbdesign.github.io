@@ -1,0 +1,147 @@
+* {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 991.98px) {
+  .intro {
+    flex-direction: column;
+  }
+  .figma.selected {
+    height: 500px;
+  }
+  .text {
+    text-align: center;
+  }
+  .bg.selected {
+    padding: 0.6rem;
+  }
+  .bg-tele.selected {
+    padding: 0.5rem
+  }
+}
+
+.navbrand {
+  font-weight: bold;
+}
+
+.card img {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.contact {
+  border-radius: 16px;
+  background-image: url(outro-unsplash.jpg);
+  background-size: cover;
+}
+
+.intro {
+  border-radius: 16px;
+  background-image: url(intro-unsplash.jpg);
+  background-size: cover;
+}
+
+.teletrack {
+  background-color: #1e1c56;
+}
+
+.snap {
+  background-color: #48af8d;
+}
+
+.eel {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  background-color: #ccc;
+  background-color: #a8547f;
+}
+
+.red {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  background-color: #ccc;
+  background-color: #8a0000;
+}
+
+.bit img {
+  width: 550px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.image-con {
+  background-color: black;
+  border-radius: 16px;
+}
+
+.showcase img {
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.showcase {
+  border-radius: 16px;
+}
+
+.screens {
+  border-radius: 16px;
+  background-color: #e8e8ee;
+}
+
+.screens-snap {
+  border-radius: 16px;
+  background-color: #ecf7f3;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.figma {
+  border-radius: 16px;
+  width: 100%;
+  height: 700px;
+}
+
+.bg img {
+  background-color: #ecf7f3;
+}
+
+.bg {
+  padding: 1.5rem;
+}
+
+.end-project img {
+  width: 240px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.bg-tele img {
+  background-color: #e8e8ee;
+}
+
+.bg-tele {
+  padding: 1.5rem;
+}
+
+.navbar {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.footer {
+  border-top: 1px solid rgb(204, 204, 204);
+}
